@@ -1,0 +1,21 @@
+{
+  "name": "meanjobs",
+  "version": "1.0.0",
+  "description": "An application to List of available jobs ",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jobs",
+    "company"
+  ],
+  "author": "Haymanot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.10"
+  }
+}
